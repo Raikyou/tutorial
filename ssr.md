@@ -14,7 +14,7 @@ cd shadowsocksr
 bash initcfg.sh
 vi user-config.json
 cd shadowsocks
-chmod +x *.sh & ./logrun.sh  # stop.sh & tail.sh
+./logrun.sh  # stop.sh & tail.sh
 ```
 {% endcode-tabs-item %}
 
