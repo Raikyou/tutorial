@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Linux Command](linux-command.md)
-* [SSR](ssr.md)
-* [BBR](bbr.md)
+* [GFW](ssr.md)
 * [Environment](environment.md)
 

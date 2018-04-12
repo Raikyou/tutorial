@@ -1,13 +1,9 @@
----
-description: python
----
+# GFW
 
-# SSR
-
-## Installation
+## SSR
 
 {% code-tabs %}
-{% code-tabs-item title="Installation" %}
+{% code-tabs-item title="installation" %}
 ```bash
 git clone -b manyuser https://github.com/Raikyou/shadowsocksr`
 cd shadowsocksr
@@ -18,7 +14,7 @@ cd shadowsocks
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title="Configuration" %}
+{% code-tabs-item title="config" %}
 ```javascript
 // single user
 "server_port": 8388,
@@ -41,57 +37,37 @@ cd shadowsocks
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title="Multi-user" %}
-```javascript
-
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Run in version of github" %}
-```bash
-python server.py        # run in the foregroung
-# mainly used for debugging，truned off after disconnecting SSH）
-python server.py -d start        # run in the background
-python server.py -d stop/restart        # stop or restart
-tail -f /var/log/shadowsockr.log        # view the log
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-## Start up
-
-{% code-tabs %}
-{% code-tabs-item title="Debian" %}
+{% code-tabs-item title="startup" %}
 ```bash
 chmod +x /etc/rc.local
 vi etc/rc.local
-# add '/bin/bash /root/shadowsocksr/shadowsocks/logrun.sh' before 'exit 0'
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Cent OS" %}
-```bash
-chmod +x /etc/rc.d/rc.local
-vi /etc/rc.d/rc.local
-/bin/bash
 # add '/bin/bash /root/shadowsocksr/shadowsocks/logrun.sh'
 ```
 {% endcode-tabs-item %}
-{% endcode-tabs %}
 
-## Update
-
+{% code-tabs-item title="update" %}
 ```bash
 cd shadowsocksr
 git pull
 # restart after succeeding
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-## Reference
+**Reference**
 
-\[1\] [ShadowsocksR服务端安装教程](https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup)
+\[1\] [ShadowsocksR服务端安装教程](https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup)[https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup](https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup)
 
-\[2\] [ShadowsocksR 单用户版服务端安装教程](https://doub.io/ss-jc11/)
+\[2\] [ShadowsocksR 单用户版服务端安装教程](https://doub.io/ss-jc11/)[https://doub.io/ss-jc11/](https://doub.io/ss-jc11/)
+
+## BBR
+
+```bash
+sudo wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh 
+chmod +x bbr.sh && ./bbr.sh
+# restart after installation
+lsmod | grep bbr    # Succeeded If returning tcp_bbr
+```
 
 
 
