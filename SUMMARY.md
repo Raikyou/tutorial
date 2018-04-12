@@ -4,4 +4,5 @@
 * [Linux Command](linux-command.md)
 * [GFW](ssr.md)
 * [Environment](environment.md)
+* [Blog](blog.md)
 
