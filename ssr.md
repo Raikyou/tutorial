@@ -5,12 +5,12 @@
 {% code-tabs %}
 {% code-tabs-item title="installation" %}
 ```bash
-git clone -b manyuser https://github.com/Raikyou/shadowsocksr`
+git clone -b manyuser https://github.com/Raikyou/shadowsocksr
 cd shadowsocksr
 bash initcfg.sh
 vi user-config.json
 cd shadowsocks
-./logrun.sh  # stop.sh & tail.sh
+./logrun.sh
 ```
 {% endcode-tabs-item %}
 
