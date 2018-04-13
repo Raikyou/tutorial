@@ -56,9 +56,8 @@ git pull
 
 **Reference**
 
-\[1\] [ShadowsocksR服务端安装教程](https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup)[https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup](https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup)
-
-\[2\] [ShadowsocksR 单用户版服务端安装教程](https://doub.io/ss-jc11/)[https://doub.io/ss-jc11/](https://doub.io/ss-jc11/)
+* [ShadowsocksR 服务端安装教程](https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup)
+* [ShadowsocksR 单用户版服务端安装教程](https://doub.io/ss-jc11/)
 
 ## BBR
 
