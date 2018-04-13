@@ -4,6 +4,5 @@
 * [GFW](gfw.md)
 * [Environment](environment.md)
 * [Blog](blog.md)
-* [Program Lauguage](program-lauguage/README.md)
-  * Bash
+* [Program Lauguage](program-lauguage.md)
 
