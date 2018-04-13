@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Linux Command](linux-command.md)
-* [GFW](ssr.md)
+* [GFW](gfw.md)
 * [Environment](environment.md)
 * [Blog](blog.md)
-* [Program Lauguage](program-lauguage.md)
+* [Program Lauguage](program-lauguage/README.md)
+  * Bash
 

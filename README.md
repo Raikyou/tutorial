@@ -2,13 +2,7 @@
 
 ## Table of Content
 
-* [Linux Command](linux-command.md)
-* [SSR](ssr.md)
-* [BBR]()
-
-## 
-
-## 
-
-
+* [Linux Command](program-lauguage/linux-command.md)
+* [SSR](gfw.md)
+* [BBR](./)
 
