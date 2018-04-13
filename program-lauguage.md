@@ -9,8 +9,8 @@
 |  `~~strikethrough~~` | ~~strikethrough~~ |
 | `1. order` | 1. order |
 | `- bullet order` | - bullet order  |
-| `[link](https://www.google.com hover_text)` | [link](https://www.google.com) |
-| `![alt](url hover_text)` |  |
+| `[google link](https://www.google.com 'google homepage')` | [google link](https://www.google.com) |
+| `![page icon](url 'gitbook icon')` | ![page icon](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-L9tpLefuy10oQDBjWcS%2Favatar.png?generation=1523545518862026&alt=media 'githook icon') |
 
 
 
