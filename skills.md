@@ -41,5 +41,10 @@ Get-ChildItem *.jpg -Filter "*oldstring*" | ForEach {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+**Reference**
+
+* [在 Windows 中更改大量檔案名稱，批次修改檔名，快速又省力！](https://blog.gtwang.org/windows/how-to-batch-rename-files-in-windows/)
+* [Windows PowerShell 使用教學課程](https://msdn.microsoft.com/zh-tw/library/ee790872%28v=azure.10%29.aspx)
+
 
 
