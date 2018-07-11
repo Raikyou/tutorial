@@ -1,4 +1,3 @@
-# Skills
 
 ## Rename in Explorer
 
@@ -11,15 +10,15 @@ ren *.jpg *.png
 
 ### PowerShell
 
-{% code-tabs %}
-{% code-tabs-item title="replace" %}
+### Replace
+
 ```bash
 # replace " " with "-"
 Dir | Rename-Item -NewName { $_.name -replace " ", "-" }
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="sort" %}
+### Sort
+
 ```bash
 # rename *.JPG to image_num.jpg
 Get-ChildItem *.jpg | ForEach-Object -Begin {
@@ -29,17 +28,15 @@ Get-ChildItem *.jpg | ForEach-Object -Begin {
   $count++
 }
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="string" %}
+### String
+
 ```bash
 # find and replace "oldstring" to "newstring" 
 Get-ChildItem *.jpg -Filter "*oldstring*" | ForEach {
   Rename-Item $_ -NewName $_.Name.Replace("oldstring","newstring")
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 **Reference**
 

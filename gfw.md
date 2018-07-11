@@ -1,9 +1,8 @@
-# GFW
 
 ## SSR
 
-{% code-tabs %}
-{% code-tabs-item title="installation" %}
+### Install
+
 ```bash
 git clone -b manyuser https://github.com/Raikyou/shadowsocksr
 cd shadowsocksr
@@ -12,9 +11,9 @@ vi user-config.json
 cd shadowsocks
 ./logrun.sh
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="config" %}
+### Config
+
 ```javascript
 // single user
 "server_port": 8388,
@@ -35,24 +34,22 @@ cd shadowsocks
         "8389":{"protocol":"origin", "password":"abcde"}
         },
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="startup" %}
+### Startup
+
 ```bash
 chmod +x /etc/rc.local
 vi etc/rc.local
 # add '/bin/bash /root/shadowsocksr/shadowsocks/logrun.sh'
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="update" %}
+### Update
+
 ```bash
 cd shadowsocksr
 git pull
 # restart after succeeding
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 **Reference**
 

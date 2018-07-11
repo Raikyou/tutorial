@@ -11,8 +11,8 @@ apt-get install php-mysql php-curl php-json php-cgi php libapache2-mod-php
 
 ## LNMP
 
-{% code-tabs %}
-{% code-tabs-item title="Installation" %}
+### Install
+
 ```bash
 apt-get install php
 apt-get install php-mysql
@@ -26,9 +26,9 @@ vi /etc/php/7.1/fpm/pool.d/www.conf # 配置这个 listen = /var/run/php/php7.1-
 service php7.1-fpm restart #  /etc/init.d/php7.1-fpm restart
 vi /etc/nginx/sites-available/default # configuration
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Configuration" %}
+### Config
+
 ```javascript
 listen 80 default_server;
 listen [::]:80 default_server;
@@ -55,6 +55,4 @@ location ~ \.php$ {
         include fastcgi_params;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 

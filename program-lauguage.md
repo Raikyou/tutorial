@@ -1,8 +1,7 @@
-# Program Lauguage
 
-{% code-tabs %}
-{% code-tabs-item title="HTML" %}
-```markup
+### HTML
+
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -53,9 +52,9 @@
 
 
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=undefined %}
+### CSS
+
 ```css
 /*选择器分组*/
 h1,h2,h3 {
@@ -81,9 +80,9 @@ li>strong
 .class 
 
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=undefined %}
+### Javasript
+
 ```javascript
 //输出
 document.write("<h1>This is a heading</h1>");           //写入html输出
@@ -111,9 +110,9 @@ objectName.popertyName         //访问对象属性
 objectName.methodName          //访问对象方法
 
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=undefined %}
+### Python
+
 ```python
 #Python大小写敏感
 name=input('please enter your name:')
@@ -200,18 +199,10 @@ l(-2:)    #取倒数第2个数和倒数第1个数
     print(n)   
 
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=undefined %}
-```
+### Markdown
 
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-## Markdown
-
-| `# H1` | \#\# H1 |
+| `# H1` | # H1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `** Bold **` | **Bold** |
 | `_Italic_` | _Italic_ |
@@ -223,6 +214,6 @@ l(-2:)    #取倒数第2个数和倒数第1个数
 
 Reference
 
-* &lt;[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)&gt;
-* &lt;[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)&gt;
+* [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
