@@ -1,14 +1,13 @@
 
-## Rename in Explorer
 
-### Command Prompt
+## DOS
 
 ```bash
 # rename suffix
 ren *.jpg *.png
 ```
 
-### PowerShell
+## PowerShell
 
 ### Replace
 
