@@ -18,8 +18,6 @@ git commit -m "update"
 git push -u origin master
 ```
 
-
-
 ### Github Pages
 
 ```
@@ -59,9 +57,16 @@ Run `sh gitbook.sh 'update'`  when updating
 
 
 
+### Travis
+
+
+
+
+
 ** Reference **
 
 * [Gitbook 托管到 Github Pages 上](http://yangjh.oschina.io/gitbook/UsingPages.html)
+* [使用 Travis CI 自动部署 GitBook 到 GitHub Pages](#)
 
 
 
