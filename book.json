@@ -1,8 +1,8 @@
 {
-	"pluginConfig": {
-		"theme-default": {
-	            "showLevel": true
-	    }
-	},
+    "pluginConfig": {
+        "theme-default": {
+	        "showLevel": true
+	}
+    },
     "plugins": ["toggle-chapters"]
 }
