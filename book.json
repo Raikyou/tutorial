@@ -5,6 +5,6 @@
 	}
     },
     "plugins": ["expandable-chapters",
-    "- expandable-chapters-small",
-    "- toggle-chapters"]
+    "-expandable-chapters-small",
+    "-toggle-chapters"]
 }
