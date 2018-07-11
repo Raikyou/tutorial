@@ -1,10 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
+
+
+
 * [Shadowsocks](VPS/shadowsocks.md)
 * [Environment](VPS/environment.md)
-* [1](1.md)
-
+* 
 ---
 
 * [Program Lauguage](Tech/lauguage.md)
@@ -17,4 +19,6 @@
 ---
 
 * [Blog](blog.md)
+
+
 
