@@ -4,7 +4,5 @@
 	        "showLevel": true
 	}
     },
-    "plugins": ["expandable-chapters",
-    "-expandable-chapters-small",
-    "-toggle-chapters"]
+    "plugins": ["expandable-chapters"]
 }
