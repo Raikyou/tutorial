@@ -1,10 +1,16 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [GFW](gfw.md)
-* [Environment](environment.md)
-* [Blog](blog.md)
-* [Program Lauguage](program-lauguage.md)
-* [Internet Protocol](internet-protocol.md)
-* [Skills](skills.md)
 
+* [Shadowsocks](VPS/shadowsocks.md)
+* [Environment](VPS/environment.md)
+
+
+* [Program Lauguage](Tech/lauguage.md)
+* [Internet Protocol](Tech/internet-protocol.md)
+
+
+* [DOC](tricks/DOC.md)
+
+
+* [Blog](blog.md)
