@@ -2,28 +2,24 @@
 
 * [Introduction](README.md)
 
-
 * [VPS](/VPS/README.md)
-	* [Shadowsocks](VPS/shadowsocks.md)
-	* [Environment](VPS/environment.md)
+  * [Shadowsocks](/VPS/shadowsocks)
+  * [Environment](VPS/environment.md)
 
+* [Program](/Program/README.md)
+  * [html](/Program/html.md)
+  * [css](/Program/css.md)
+  * [javascript](/Program/javascript.md)
+  * [python](/Program/python.md)
+  * [markdown](/Program/markdown.md)
+  * [git](/Program/git.md)
+  * [dos](/Program/dos.md)
 
-* [Program](program/README.md)
-	* [html](program/html.md)
-	* [css](program/css.md)
-	* [javascript](program/javascript.md)
-	* [python](program/python.md\)
-	* [markdown](program/markdown.md)
-	* [git](program/git.md)
-	* [dos](program/dos.md)
-
-
-* Tech
-	* [Internet Protocol](tech/internet-protocol.md)
-
+* [Tech](/Tech/README.md)
+  * [Internet Protocol](/Tech/internet-protocol.md)
 
 * [Bookmarks](bookmarks/README.md)
-	* [Booklists](bookmarks/booklist.md)
+  * [Booklists](bookmarks/booklist.md)
 
 
 
