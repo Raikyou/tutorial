@@ -4,6 +4,7 @@
 * [VPS](/VPS/README.md)
   * [Shadowsocks](/VPS/shadowsocks.md)
   * [Environment](VPS/environment.md)
+  * [caddy](VPS/caddy.md)
 * [Program](/Program/README.md)
   * [html](/Program/html.md)
   * [css](/Program/css.md)
