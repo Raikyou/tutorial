@@ -47,13 +47,23 @@ bash caddy_install.sh uninstall
 
 ## 3. Aria2 前端
 
+### 创建文件夹
+
 ```
 mkdir /usr/local/caddy/www/aria2/Download && cd /usr/local/caddy/www/aria2
+```
 
+### 自动获取最新版本号
+
+```
 Ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/mayswind/AriaNg/releases/latest | grep -o '"tag_name": ".*"' | sed 's/"//g' | sed 's/tag_name: //g') && echo ${Ver}
 ```
 
-## 
+### 安装
+
+```
+wget -N --no-check-certificate "https://github.com/mayswind/AriaNg/releases/download/${Ver}/aria-ng-${Ver}.zip" && unzip aria-ng-${Ver}.zip && rm -rf aria-ng-${Ver}.zip
+```
 
 
 
