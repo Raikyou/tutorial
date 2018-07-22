@@ -83,5 +83,32 @@ wget -N --no-check-certificate https://softs.loan/Bash/cloudt.sh
 bash cloudt.sh
 ```
 
+## 5. Transmission
+
+### 安装
+
+```
+apt-get install -y transmission-daemon
+```
+
+### 配置
+
+```
+
+/etc/init.d/transmission-daemon stop
+
+vim /var/lib/transmission-daemon/info/settings.json
+
+/etc/init.d/transmission-daemon start
+```
+
+### 美化
+
+```
+wget --no-check-certificate https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control.sh
+
+bash install-tr-control.sh
+```
+
 
 
