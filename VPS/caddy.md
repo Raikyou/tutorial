@@ -1,7 +1,9 @@
 ## 1. Aria2 后端
 
 ```
-wget -N --no-check-certificate https://softs.loan/Bash/aria2.sh && chmod +x aria2.sh && bash aria2.sh
+wget -N --no-check-certificate https://softs.loan/Bash/aria2.sh 
+
+bash aria2.sh
 ```
 
 下载目录 `/usr/local/caddy/www/aria2/Download`
@@ -11,7 +13,9 @@ wget -N --no-check-certificate https://softs.loan/Bash/aria2.sh && chmod +x aria
 ## 安装
 
 ```
-wget -N --no-check-certificate https://softs.loan/Bash/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh install http.filemanager
+wget -N --no-check-certificate https://softs.loan/Bash/caddy_install.sh 
+
+bash caddy_install.sh install http.filemanager
 ```
 
 ### 创建文件夹
@@ -62,7 +66,21 @@ Ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/mayswind/Ari
 ### 安装
 
 ```
-wget -N --no-check-certificate "https://github.com/mayswind/AriaNg/releases/download/${Ver}/aria-ng-${Ver}.zip" && unzip aria-ng-${Ver}.zip && rm -rf aria-ng-${Ver}.zip
+wget -N --no-check-certificate "https://github.com/mayswind/AriaNg/releases/download/${Ver}/aria-ng-${Ver}.zip"
+
+unzip aria-ng-${Ver}.zip
+
+rm -rf aria-ng-${Ver}.zip
+```
+
+## 4. Cloud Torrent
+
+### 安装
+
+```
+wget -N --no-check-certificate https://softs.loan/Bash/cloudt.sh 
+
+bash cloudt.sh
 ```
 
 

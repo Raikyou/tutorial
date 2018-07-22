@@ -5,7 +5,7 @@
   * [Shadowsocks](/VPS/shadowsocks.md)
   * [Environment](VPS/environment.md)
   * [BaiduPCS-Go](VPS/baidupcs-go.md)
-  * [Caddy & Aria2](VPS/caddy.md)
+  * [Caddy & Aria2 & Cloud](VPS/caddy.md)
 * [Program](/Program/README.md)
   * [html](/Program/html.md)
   * [css](/Program/css.md)
