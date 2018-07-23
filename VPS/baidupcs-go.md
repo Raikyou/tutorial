@@ -1,7 +1,7 @@
 ### 自动获取最新版本
 
 ```
-Ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/mayswind/AriaNg/releases/latest | grep -o '"tag_name": ".*"' | sed 's/"//g' | sed 's/tag_name: //g') && echo ${Ver}
+Ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/iikira/BaiduPCS-Go/releases/latest | grep -o '"tag_name": ".*"' | sed 's/"//g' | sed 's/tag_name: //g') && echo ${Ver}
 ```
 
 ### 安装
