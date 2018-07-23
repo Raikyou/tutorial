@@ -19,7 +19,7 @@ cd BaiduPCS-Go && ./BaiduPCS-Go
 ```
 BaiduPCS-Go > login                              # 登陆账号
 BaiduPCS-Go > updata                             # 检测程序更新
-BaiduPCS-Go > config set -max_parallel 500 -savedir ~/downloads               # 设置下载路径和最大并发量
+BaiduPCS-Go > config set -max_parallel=500 -savedir /usr/local/caddy/www/aria2/Download   # 设置下载路径、最大并发量
 BaiduPCS-Go > d /path/file          # 下载 /path/file 所制定的文件，支持文件夹
 ```
 
