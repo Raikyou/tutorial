@@ -8,7 +8,7 @@ Example：
 
 ```
 str = 'Hello Studio'
-S = regexp(str, '\s+', 'split')
+S = regexp(str, '\s+', 'split')
 
 S(1)='Hello'
 S(2)='Studio'
@@ -22,11 +22,9 @@ s1 = char(S(1))
 
 这样的s1才是一个真正的字符串，可以进行后续的操作。
 
-
-
 ## 2 Figure 的 subplot 位置控制
 
-### 2.1 只在最后一个 subplot 右侧显示 colorbar 
+### 2.1 只在最后一个 subplot 右侧显示 colorbar
 
 ```
 p = get(subplot(2,5,10),'Position');
@@ -39,8 +37,6 @@ colorbar('Position', [p(1)+p(3)+gap  p(2)  colorbar_axw  p(4)])
 px = px + axw + gap;
 py = py - axh - gap;
 ```
-
-
 
 **Reference**
 
