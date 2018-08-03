@@ -77,7 +77,7 @@ $().first()  //first/last/eq/filter/not
 $().load(URL,data,callback);  // callback  function(responseText,statusText,xhr)
 $.get(URL,callback)
 $.post(URL,data,callback)
-$.ajax({url:"test.js",dataType:"json",type:"get",success:function(){}});
+$.ajax({url:"test.js",dataType:"json",type:"get",success:callback});
 
 function sample()
 {
