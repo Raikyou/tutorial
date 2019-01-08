@@ -2,11 +2,8 @@
 
 ```bash
 Ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/iikira/BaiduPCS-Go/releases/latest | grep -o '"tag_name": ".*"' | sed 's/"//g' | sed 's/tag_name: //g') && echo ${Ver}
-
 wget --no-check-certificate -O BaiduPCS-Go.zip https://github.com/iikira/BaiduPCS-Go/releases/download/${Ver}/BaiduPCS-Go-${Ver}-linux-amd64.zip
-
 unzip BaiduPCS-Go.zip && rm BaiduPCS-Go.zip
-
 cd BaiduPCS-Go && ./BaiduPCS-Go
 ```
 
