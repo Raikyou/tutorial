@@ -21,8 +21,8 @@ BaiduPCS-Go > d /path/file
 
 ** Referrence **
 
-* \[BaiduPcs-web from _liuzhuoling201_\]\(https://github.com/liuzhuoling2011/baidupcs-web\)
-* \[BaiduPcs-Go from _iikira_\]\(https://github.com/iikira/BaiduPCS-Go\)
+* [BaiduPcs-web from _liuzhuoling2011_](https://github.com/liuzhuoling2011/baidupcs-web\)
+* [BaiduPcs-Go from _iikira_](https://github.com/iikira/BaiduPCS-Go\)
 
 
 
