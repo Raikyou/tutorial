@@ -13,6 +13,7 @@
   * [css](Syntax/css.md)
   * [javascript](Syntax/javascript.md)
   * [python](Syntax/python.md)
+  * [Numpy](numpy.md)
   * [markdown](Syntax/markdown.md)
   * [git](Syntax/git.md)
   * [dos](Syntax/dos.md)
