@@ -8,6 +8,7 @@
   * [Rime](rime.md)
   * [Shadowsocks](/Tool/shadowsocks.md)
   * [TeXLive](/Tool/TeXLive.md)
+  * [Foobar](VPS/foobar.md)
 * [Syntax](/Program/README.md)
   * [html](Syntax/html.md)
   * [css](Syntax/css.md)
