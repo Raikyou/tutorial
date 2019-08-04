@@ -1,4 +1,4 @@
-## Regexp
+# regexp
 
 | Charater | Description |
 | :--- | :--- |
@@ -14,8 +14,6 @@
 | \* | {0,} |
 | + | {1,} |
 | ? | {0,1} |
-
-
 
 More syntax, refer to 参考[元字符](http://www.runoob.com/regexp/regexp-metachar.html\)
 

@@ -1,6 +1,6 @@
-### Python
+# python
 
-```py
+```python
 #Python大小写敏感
 name=input('please enter your name:')
 print('hello',name)  #也可以用","连接不通字符串'hellp','world'
@@ -85,6 +85,4 @@ l(-2:)    #取倒数第2个数和倒数第1个数
   for n in g       #返回iterator所有值
     print(n)
 ```
-
-
 

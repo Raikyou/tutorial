@@ -1,3 +1,5 @@
+# Numpy
+
 |  | Numpy | Matlab |
 | :--- | :--- | :--- |
 | x+y | np.add\(x,y\) |  |
@@ -12,11 +14,7 @@
 | transpose | x.T | x' |
 | stack | np.tile\(x, \(m, n\)\) | remat\(x, m, n\) |
 
-
-
-** Referrence**
+ **Referrence**
 
 * [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/#numpy-broadcasting)
-
-
 

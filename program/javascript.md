@@ -1,6 +1,8 @@
-### Javasript
+# javascript
 
-```js
+## Javasript
+
+```javascript
 document.write("<h1>This is a heading</h1>");          
 document.getElementById("demo").innerHTML="Hello JavaScript";         
 document.getElementById("demo").style.color="#ff0000";       
@@ -50,9 +52,9 @@ array.map(funciton)    // funciton(value, [index], [array]), return a new array 
 array.filter(function)    // return a new array
 ```
 
-### jQuery
+## jQuery
 
-```js
+```javascript
 // 安装
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
@@ -94,9 +96,9 @@ $().siblings()  //siblings/next/nextAll/nextUntill/prev/prevAll/prevUntill
 $().first()  //first/last/eq/filter/not
 ```
 
-### Ajax
+## Ajax
 
-```js
+```javascript
 $().load(URL,data,callback);  // callback  function(responseText,statusText,xhr)
 $.get(URL,callback)
 $.post(URL,data,callback)
@@ -113,6 +115,4 @@ xmlhttp.open("GET",URL,true);
 xmlttp.send();
 }
 ```
-
-
 

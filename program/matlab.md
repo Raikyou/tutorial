@@ -1,12 +1,14 @@
+# matlab
+
 ## 1 字符串分割
 
-```
+```text
 S = regexp(str, char, 'split')
 ```
 
 Example：
 
-```
+```text
 str = 'Hello Studio'
 S = regexp(str, '\s+', 'split')
 
@@ -16,7 +18,7 @@ S(2)='Studio'
 
 注意，此时 S 是一个 cell 型变量，它的每个元素比如S\(1\)仍然是cell型的，只能用来display，不能直接用来进行字符串操作（比如获取其中的某个字符），所以我们在使用需要执行一次：
 
-```
+```text
 s1 = char(S(1))
 ```
 
@@ -26,14 +28,14 @@ s1 = char(S(1))
 
 ### 2.1 只在最后一个 subplot 右侧显示 colorbar
 
-```
+```text
 p = get(subplot(2,5,10),'Position');
 colorbar('Position', [p(1)+p(3)+gap  p(2)  colorbar_axw  p(4)])
 ```
 
 ### 2.2 自定义 subplot 位置和间距
 
-```
+```text
 px = px + axw + gap;
 py = py - axh - gap;
 ```

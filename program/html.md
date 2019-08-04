@@ -1,6 +1,6 @@
-### HTML
+# html
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
     <head>
@@ -49,6 +49,4 @@
     </body>
 </html>
 ```
-
-
 
